@@ -1,0 +1,29 @@
+.wadah {
+    /*width: 800px;
+    border: 4px solid red;
+    padding: 20px;*/
+    width: 800px;
+    height: 900px;
+    border: 2px solid darkcyan;
+    margin: 0 auto;
+
+}
+
+/*img {
+    float: right;
+   margin: 20px;
+}*/
+
+.kiri {;
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: yellow;
+}
+
+.kanan{
+    width: 70%;
+    height: 100%;
+    float: right;
+    background-color: lightsalmon;
+}

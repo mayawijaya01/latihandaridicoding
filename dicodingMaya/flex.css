@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    /* dekorasinya*/
+    background-color: lightgreen;
+    border: 4px solid black;
+    padding: 15px;
+    margin: 0 auto;
+    width: 800px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+.box {
+    /*dekorasinya */
+    background-color: yellow;
+    border: 4px solid black;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.first {
+    flex-grow: 1;
+}
+
+.second {
+    flex-grow: 2;
+}
+
+.third {
+    flex-grow: 1;
+}

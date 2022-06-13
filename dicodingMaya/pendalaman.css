@@ -1,0 +1,75 @@
+h3#opacity {
+    background-color: red;
+    opacity: 0.5;
+}
+
+p#opacity2 {
+    background-color: green;
+    opacity: 1;
+}
+
+div#content {
+    font-family: "sans-serif";
+    background-color: rgb(200, 200, 200);
+    padding: 20px 15px;
+}
+
+#content > h3 {
+    background-color: #4c5450;
+    padding: 15px;
+    color: white;
+}
+
+#content >  h6 {background-color: #60d0a8;
+padding: 15px;
+color: white;
+}
+
+#content > p {
+    background-color: hsl(56, 32%, 25%);
+    padding: 20px;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: sienna;
+}
+
+.box p {
+    height: 75%;
+    width: 75%;
+    background-color: darkorchid;
+}
+
+.limiting {
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: deeppink;
+}
+
+.limiting p {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.overflowing p {
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+    background-color: burlywood;
+}
+
+p.padding {
+    border: 6px solid red;
+    width: 200px;
+}
+
+p.paddding2 {
+    border: 2px double navy;
+    width: 200px;
+    padding: 20px;
+}
+
+
